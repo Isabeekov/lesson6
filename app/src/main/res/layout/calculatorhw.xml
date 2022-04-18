@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textsan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="50dp"
+
+        android:gravity="left"
+        android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/qwerty_color"
+            android:text="Del"
+
+            android:textColor="#0D47A1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/qwerty_color"
+            android:text="="
+            android:textColor="#0D47A1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnOne"
+            style="@style/button_hw_style"
+            android:text="1"
+            android:textColor="#0D47A1"/>
+
+
+        <Button
+            android:id="@+id/btnTwo"
+            style="@style/button_hw_style"
+            android:text="2"
+            android:textColor="#0D47A1"/>
+        <Button
+            android:id="@+id/btnThird"
+            style="@style/button_hw_style"
+            android:text="3"
+            android:textColor="#0D47A1"/>
+        <Button
+            style="@style/button_amal_style"
+            android:text="/" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFfirth"
+            style="@style/button_hw_style"
+            android:text="4"
+            android:textColor="#0D47A1"/>
+        <Button
+            android:id="@+id/btnFive"
+            style="@style/button_hw_style"
+            android:text="5"
+            android:textColor="#0D47A1"/>
+        <Button
+            android:id="@+id/btnSix"
+            style="@style/button_hw_style"
+            android:text="6"
+            android:textColor="#0D47A1"/>
+        <Button
+            style="@style/button_amal_style"
+            android:text="-" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSeven"
+            style="@style/button_hw_style"
+            android:text="7"
+            android:textColor="#0D47A1"/>
+        <Button
+            android:id="@+id/btnEight"
+            style="@style/button_hw_style"
+            android:text="8"
+            android:textColor="#0D47A1" />
+        <Button
+            android:id="@+id/btnNine"
+            style="@style/button_hw_style"
+            android:text="9"
+            android:textColor="#0D47A1"/>
+        <Button
+            style="@style/button_amal_style"
+            android:text="x" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/button_hw_style"
+            android:text="."
+            android:textColor="#0D47A1"/>
+        <Button
+            style="@style/button_hw_style"
+            android:text="0"
+            android:textColor="#0D47A1"/>
+        <Button
+            style="@style/button_amal_style"
+            android:text="%" />
+        <Button
+            style="@style/button_amal_style"
+            android:text="+" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

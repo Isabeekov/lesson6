@@ -1,0 +1,87 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="408dp"
+        android:layout_height="46dp"
+        android:text="SALEM ALEM"
+        android:textAlignment="center"
+        android:textColor="#004D99"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:backgroundTint="#9C27B0"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/textViewd"
+        android:layout_width="408dp"
+        android:layout_height="62dp"
+        android:text="   enter Email"
+        android:textAlignment="textStart"
+        android:textColor="#004D99"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <TextView
+        android:id="@+id/textk"
+        android:layout_width="413dp"
+        android:layout_height="64dp"
+        android:text="   enter Password"
+        android:textAlignment="viewStart"
+        android:textColor="#004D99"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="316dp"
+        android:orientation="horizontal"
+        android:textAlignment="viewStart"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="414dp">
+
+        <TextView
+            android:id="@+id/textl"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="   Im agree"
+            android:textAlignment="textStart"
+            android:textColor="#004D99"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonp"
+            android:layout_width="210dp"
+            android:layout_height="59dp"
+            android:layout_weight="1"
+            android:text="agree"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
